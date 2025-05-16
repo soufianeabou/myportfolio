@@ -17,7 +17,7 @@ const nextConfig = {
     // Optional: Enable additional optimizations if needed
     optimizePackageImports: ['lucide-react']
   },
-  basePath: '/soufiane-portfolio',
+  basePath: '/myportfolio',
 };
 
 module.exports = nextConfig; 
