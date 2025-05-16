@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
     unoptimized: true
   },
@@ -15,7 +16,8 @@ const nextConfig = {
   experimental: {
     // Optional: Enable additional optimizations if needed
     optimizePackageImports: ['lucide-react']
-  }
+  },
+  basePath: '/soufiane-portfolio',
 };
 
 module.exports = nextConfig; 
